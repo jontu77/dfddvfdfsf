@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    padding: 30px 0;
+    background-color: #f0f0f0;
+    border-top: 5px solid #0a47ff;
+    text-align: center;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    ;
+}
+.menu ul li a {
+    padding: 13px 20px;
+    background: #33698a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu ul li a:hover {
+    background-color: #24506b;
+}
+
+.slider-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.slider-section .box {
+    height: 335px;
+    width: 80%;
+    text-align: ;
+    margin: auto;
+    background: #426284;
+    color: #fff;
+    padding: 55px 0;
+    transform: rotate(2deg);
+}
+.box h2 {
+    font-size: 26px;
+    text-transform: full-width;
+    margin-top: 42px;
+}
+.box p {
+    font-size: 23px;
+    padding: 33px 0;
+}
+.box a {
+    background: #fff;
+    padding: 16px 68px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-decoration: navajowhite;
+    border: 3px solid #fff;
+}
+.box a:hover {
+    border: 3px solid black;
+}
+
+
+.box2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #111924;
+    transform: translate(-6px,-72px);
+}
+.box2 p {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 900;
+    transform: translate(1px ,64px);
+}
+
+
+.service-section {
+    padding: 40px 0 70px;
+    background-color: #e9e9ea;
+    text-align: center;
+}
+.service-section h2 {
+    color: rgb(19, 18, 20);
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.service-item1 {
+    height: 200px;
+    width: 200px;
+    background-color: #5e47cc;
+    display: inline-block;
+    margin-right: 70px;
+    transform: rotate(129deg);
+    transition: .5s;
+}
+.service-item1:hover {
+    transform: rotate(9deg);
+    background-color: rgb(12, 12, 12);
+    transform: 
+}
+.service-item2 {
+    height: 200px;
+    width: 200px;
+    background-color: #5e47cc;
+    display: inline-block;
+    margin-right: 30px;
+    transform: skew(-13deg, 20deg);
+    transition: .5s;
+}
+
+
+.service-item2:hover {
+    transform: rotate(189deg);
+    background-color: rgb(12, 12, 12);
+
+}
+.service-item3 {
+    height: 200px;
+    width: 200px;
+    background-color: #5e47cc;
+    display: inline-block;
+    margin-right: 30px;
+    transition: .6s;
+}
+.service-item3:hover {
+    transform: scale(1.3) translate(161px ,0px);
+    background-color: rgb(12, 12, 12);
+}
+
+
+.footer-section {
+    padding: 40px 0;
+    background-color: #17365e;
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+}
